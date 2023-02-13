@@ -1,0 +1,9 @@
+body {
+  background-image: url("nightsky.jpeg");
+  background-position: center top;
+  background-size: 100% auto;
+}
+
+div {
+  color: white
+}
