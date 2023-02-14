@@ -5,17 +5,72 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Play">
   </head>
   <body>
-    <div class="hey animated">
-      Hey you
+    <div id="containerOne">
+      <div class="hey animated">
+        Hey you
+      </div>
+      <div class="quest animated">
+        Can I ask you a question?
+      </div>
+      <div class="val animated">
+        Do you want to be my valentine?
+      </div>
+      <button class="animated" onclick="nextFrame()">
+        Yes
+      </button>
+
+      <div class="animated heyImage">
+        <img src="./images/milkmocha3.jpeg" width="200px" height="200px">
+      </div>
+
+      <div class="animated valImage">
+        <img src="./images/milkmocha4.jpeg" width="200px">
+      </div>
     </div>
-    <div class="quest animated">
-      Can I ask you a question?
+
+    <div id="containerTwo">
+      <div id="cell1" class="heart"></div>
+      <div id="cell2" class="heart"></div>
+      <div id="cell3" class="heart"></div>
+      <div id="cell4" class="heart"></div>
+      <div id="cell5" class="heart"></div>
+      <div id="cell6" class="heart"></div>
+      <div id="cell7" class="heart"></div>
+      <div id="cell8" class="heart"></div>
+      <div id="cell9" class="heart"></div>
+      <div id="cell10" class="heart"></div>
+      <div id="cell11" class="heart"></div>
+      <div id="cell12" class="heart"></div>
+      <div id="cell13" class="heart"></div>
+      <div id="cell14" class="heart"></div>
+      <div id="cell15" class="heart"></div>
+      <div id="cell16" class="heart"></div>
+
+      <div class="loveImage1">
+        <img src="./images/milkmocha5.jpeg" width="200px">
+      </div>
+
+      <div class="loveImage2">
+        <img src="./images/milkmocha2.jpeg" width="200px">
+      </div>
+
+      <div class="heartImage">
+        <img src="./images/milkmocha.jpeg" width="200px">
+      </div>
+
+      <div class="mouseText">
+        Happy Valentine's Day
+        <br/>
+        Nicky Mouse ^^
+      </div>
     </div>
-    <div class="val animated">
-      Do you want to be my valentine?
-    </div>
-    <button class="animated">
-      Yes
-    </button>
+
+    <script>
+      function nextFrame() {
+        document.getElementById("containerOne").style.display = 'none';
+        document.getElementById("containerTwo").style.display = 'block';
+      }
+    </script>
+      
   </body>
 </html>

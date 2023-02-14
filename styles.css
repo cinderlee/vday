@@ -1,5 +1,5 @@
 body {
-  background-image: url("nightsky.jpeg");
+  background-image: url("./images/nightsky.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Play", sans-serif;
@@ -67,4 +67,183 @@ button {
   animation-name: fadeIn;
   animation-duration: 2s;
   animation-fill-mode: forwards;
+}
+
+.heyImage {
+  opacity: 0px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 15%;
+  top: 20%;
+  transform: rotate(-20deg)
+}
+
+.valImage {
+  opacity: 0px;
+  width: 200px;
+  position: absolute;
+  left: 75%;
+  top: 40%;
+  transform: rotate(20deg);
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+.loveImage1 {
+  width: 200px;
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  transform: rotate(-20deg)
+}
+
+.loveImage2 {
+  width: 200px;
+  position: absolute;
+  left: 75%;
+  top: 40%;
+  transform: rotate(20deg);
+}
+
+.heartImage {
+  position: absolute;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+  width: 200px;
+  height: 200px;
+}
+
+#containerTwo {
+  display: none;
+}
+
+.heart {
+  width: 80px;
+  height: 80px;
+  border: 0.5px dotted white;
+  background-color: #e03f6a;
+  opacity: 0.50;
+
+  -webkit-animation: heartFadeIn 2s ease-in alternate infinite;
+  -moz-animation: heartFadeIn 2s ease-in alternate infinite;
+  animation: heartFadeIn 2s ease-in alternate infinite;
+}
+
+#cell1 {
+  position: absolute;
+  left: calc(50% - 40px);
+  top: calc(25% + 50px);
+}
+
+#cell2 {
+  position: absolute;
+  left: calc(50% - 100px - 10px);
+  top: calc(25% + 50px - 80px);
+}
+
+#cell3 {
+  position: absolute;
+  left: calc(50% + 20px + 10px);
+  top: calc(25% + 50px - 80px);
+}
+
+#cell4 {
+  position: absolute;
+  left: calc(50% - 160px - 10px);
+  top: calc(25% + 50px - 160px);
+}
+
+#cell5 {
+  position: absolute;
+  left: calc(50% + 80px + 10px);
+  top: calc(25% + 50px - 160px);
+}
+
+
+#cell6 {
+  position: absolute;
+  left: calc(50% - 220px - 10px);
+  top: calc(25% + 50px - 80px);
+}
+
+#cell7 {
+  position: absolute;
+  left: calc(50% + 140px + 10px);
+  top: calc(25% + 50px - 80px);
+}
+
+#cell8 {
+  position: absolute;
+  left: calc(50% - 280px - 10px);
+  top: calc(25% + 50px);
+}
+
+#cell9 {
+  position: absolute;
+  left: calc(50% + 200px + 10px);
+  top: calc(25% + 50px);
+}
+
+#cell10 {
+  position: absolute;
+  left: calc(50% - 220px - 10px);
+  top: calc(25% + 50px + 80px);
+}
+
+#cell11 {
+  position: absolute;
+  left: calc(50% + 140px + 10px);
+  top: calc(25% + 50px + 80px);
+}
+
+#cell12 {
+  position: absolute;
+  left: calc(50% - 160px - 10px);
+  top: calc(25% + 50px + 160px);
+}
+
+#cell13 {
+  position: absolute;
+  left: calc(50% + 80px + 10px);
+  top: calc(25% + 50px + 160px);
+}
+
+#cell14 {
+  position: absolute;
+  left: calc(50% - 100px - 10px);
+  top: calc(25% + 50px + 240px);
+}
+
+#cell15 {
+  position: absolute;
+  left: calc(50% + 20px + 10px);
+  top: calc(25% + 50px + 240px);
+}
+
+#cell16 {
+  position: absolute;
+  left: calc(50% - 40px);
+  top: calc(25% + 50px + 320px);
+}
+
+
+@keyframes heartFadeIn {
+  from { opacity: 0.50; }
+  to { opacity: 1; }
+}
+
+@-webkit-keyframes heartFadeIn {
+  from { opacity: 0.50; }
+  to { opacity: 1; }
+}
+
+.mouseText {
+  transform: rotate(-15deg);
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  width: fit-content;
+  color: #f57697;
+  font-size: 36px;
 }
